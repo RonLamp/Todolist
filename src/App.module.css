@@ -1,0 +1,11 @@
+.main {
+  min-height: 60vh;
+  text-align: center;
+  padding: 1em;
+  margin-bottom: 0px;
+}
+.h2 {
+  margin-bottom: 0.1em;
+  margin-top: 0.1em;
+  border: 1px;
+}
