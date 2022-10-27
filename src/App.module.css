@@ -1,5 +1,5 @@
 .main {
-  min-height: 60vh;
+  min-height: 50vh;
   text-align: center;
   padding: 1em;
   margin-bottom: 0px;
@@ -8,4 +8,10 @@
   margin-bottom: 0.1em;
   margin-top: 0.1em;
   border: 1px;
+}
+.master {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
 }

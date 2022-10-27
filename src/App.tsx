@@ -54,26 +54,28 @@ function App() {
           />
         }
       />
-      <Header />
-      <main className={styles.main}>
-        <div>
-          <h2>O que você vai fazer?</h2>
-          <TaskForm
-            btnText="Criar Tarefa"
-            taskList={taskList}
-            setTaskList={setTaskList}
-          />
-        </div>
-        <div>
-          <h2>Lista de Tarefas</h2>
-          <TaskList
-            taskList={taskList}
-            handleDelete={deleteTask}
-            handleEdit={editTask}
-          />
-        </div>
-      </main>
-      <Footer />
+      <div className={styles.master}>
+        <Header />
+        <main className={styles.main}>
+          <div>
+            <h2>O que você vai fazer?</h2>
+            <TaskForm
+              btnText="Criar Tarefa"
+              taskList={taskList}
+              setTaskList={setTaskList}
+            />
+          </div>
+          <div>
+            <h2>Lista de Tarefas</h2>
+            <TaskList
+              taskList={taskList}
+              handleDelete={deleteTask}
+              handleEdit={editTask}
+            />
+          </div>
+        </main>
+        <Footer />
+      </div>
     </div>
   );
 }
